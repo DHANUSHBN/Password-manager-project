@@ -1,0 +1,30 @@
+{
+  "name": "passwordmanagement",
+  "version": "1.0.0",
+  "description": "passwordmanagement",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET node index.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon index.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "modules": "^0.4.0",
+    "mongoose": "^6.10.0",
+    "node": "^20.1.0",
+    "node-modules": "^1.0.1",
+    "nodemon": "^2.0.21",
+    "validator": "^13.9.0"
+  }
+}
